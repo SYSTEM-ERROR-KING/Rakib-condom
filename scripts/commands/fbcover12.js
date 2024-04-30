@@ -3,7 +3,7 @@ const jimp = require("jimp");
 const fs = require("fs");
 
 module.exports.config = {
-  name: "fbcover",
+  name: "fbcover12",
   version: "1.0.0",
   permssion: 0,
   credits: "Mohammad Nayan",
