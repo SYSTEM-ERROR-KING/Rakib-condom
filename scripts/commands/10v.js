@@ -15,7 +15,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
 	if (event.body.indexOf("amogus")==0 || event.body.indexOf("Amogus")==0 || event.body.indexOf("😽")==0 || event.body.indexOf("😽")==0) {
 		var msg = {
-				body: "~  আমার কিউটি বিল্লু ত্যাহ্..!🥀",
+				body: "~  আমার কিউটি বিল্লু ত্যাহ্...!🥀",
 				attachment: fs.createReadStream(__dirname + `/cache/billitah.mp3`)
 			}
 			api.sendMessage( msg, threadID, messageID);
