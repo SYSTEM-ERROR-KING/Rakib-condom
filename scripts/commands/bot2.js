@@ -28,16 +28,12 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("Nh ami চুপ থাকবো না.😼 রাকিব বস আমারে কথা বলতে বলছে🤭", threadID);
    };
 
-  if ((event.body.toLowerCase() == "Who is Rakib") || (event.body.toLowerCase() == "Who is your admin") || (event.body.toLowerCase() == "Who is your owner") || (event.body.toLowerCase() == "bot kar") || (event.body.toLowerCase() == "Rakib k") || (event.body.toLowerCase() == "Rakib koi")) {
-     return api.sendMessage("~ আসসালামু আলাইকুম সবাই কেমন আছেন আসা করি আল্লাহর রহমতে অনেকটাই ভালো আছেন। বট বিষয়ে কোন প্রয়োজন হলে আমার বস এর  ইনবক্সে বলেন। ধন্যবাদ  😐://www.facebook.com/SYSTEM.ERROR.KING :))", threadID);
-   }; 
-
    if ((event.body.toLowerCase() == "Raisa") || (event.body.toLowerCase() == "রাইসা")) {
      return api.sendMessage("খবরদার কেউ এই নাম দরে ডাক দিবানা এটা আমার বস রাকিব এর বউ এর নাম..!😠🥰⛏️", threadID);
    };
 
-   if ((event.body.toLowerCase() == "হুমু") || (event.body.toLowerCase() == "হুমায়রা")) {
-     return api.sendMessage("খবরদার কেউ এই নাম দরে ডাক দিবানা এটা আমার বস রাকির এর বউ এর নাম..!😠🥰⛏️", threadID);
+   if ((event.body.toLowerCase() == "Who is your admin") || (event.body.toLowerCase() == "who is Rakib")) {
+     return api.sendMessage("আসসালামু আলাইকুম সবাই কেমন আছেন আসা করি আল্লাহর রহমতে অনেকটাই ভালো আছেন। বট বিষয়ে কোন প্রয়োজন হলে আমার বস এর  ইনবক্সে বলেন। ধন্যবাদ  😐://www.facebook.com/SYSTEM.ERROR.KING🥰", threadID);
    };
   
     if ((event.body.toLowerCase() == "রাকিব আই লাভ ইউ") || (event.body.toLowerCase() == "রাকিব জান") || (event.body.toLowerCase() == "রাকিব লুচ্চা") || (event.body.toLowerCase() == "রাকিব বেবি") || (event.body.toLowerCase() == "Rakib i love you") || (event.body.toLowerCase() == "রাকিব উম্মা")) {
