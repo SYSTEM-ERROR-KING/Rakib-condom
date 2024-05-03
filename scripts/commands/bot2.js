@@ -1,14 +1,15 @@
 module.exports.config = {
-  name: "goibot4",
-  version: "0.0.2",
+  name: "bot2",
+  version: "0.0.2", 
   permission: 0,
-  prefix: 'awto',
+  prefix: false,
   credits: "Nayan",
   description: "talk with bot",
   category: "user",
   usages: "",
     cooldowns: 5,
 }; 
+
 .exports.handleEvent = async function({ api, event, args, Threads, Users }) {
   var { threadID, messageID, reason } = event;
   const moment = require("moment-timezone");
