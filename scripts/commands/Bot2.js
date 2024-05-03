@@ -1,5 +1,5 @@
 module.exports.config = {
-  name: "বট",
+  name: "goibot4",
   version: "0.0.2",
   permission: 0,
   prefix: 'awto',
@@ -269,7 +269,7 @@ module.exports.config = {
      return api.sendMessage("Yes <3", threadID);
    };
   
-  if (event.body.indexOf("bot") == 0 || (event.body.indexOf("Bot") == 0)) {
+  if (event.body.indexOf("বট") == 0 || (event.body.indexOf("রোবট") == 0)) {
     var msg = {
       body: `${name}, ${rand}`
     }
